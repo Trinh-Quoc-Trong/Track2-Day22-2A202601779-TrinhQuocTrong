@@ -1,4 +1,5 @@
 # Chào mừng các bạn đến với Day 22: LangSmith + Prompt Versioning
+**Học viên:** Trịnh Quốc Trọng (2A202601779)
 
 ## Tổng quan
 

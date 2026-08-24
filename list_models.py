@@ -1,0 +1,12 @@
+import os
+from dotenv import load_dotenv
+from google import genai
+
+load_dotenv(".env")
+client = genai.Client(api_key=os.getenv("GOOGLE_API_KEY"))
+
+try:
+    for m in client.models.list():
+        print(m.name)
+except Exception as e:
+    print("Error:", e)
